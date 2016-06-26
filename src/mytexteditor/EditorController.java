@@ -30,7 +30,7 @@ public class EditorController {
 
     @FXML
     private void onClose() {
-        System.exit(0);
+
     }
 
     @FXML
