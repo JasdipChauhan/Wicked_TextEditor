@@ -1,4 +1,6 @@
-package texteditor;
+package mytexteditor;
+
+import javafx.fxml.FXML;
 
 import java.awt.*;
 
@@ -7,26 +9,31 @@ import java.awt.*;
  */
 public class EditorController {
 
+    @FXML
     private TextArea textArea;
+
     private EditorModel model;
 
     public EditorController(EditorModel model) {
         this.model = model;
     }
 
+    @FXML
     private void onOpen() {
 
     }
 
+    @FXML
     private void onSave() {
 
     }
 
-
+    @FXML
     private void onClose() {
-
+        System.exit(0);
     }
 
+    @FXML
     private void onAbout() {
 
     }

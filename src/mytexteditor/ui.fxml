@@ -5,7 +5,10 @@
 <?import javafx.scene.layout.*?>
 
 
-<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="600.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="mytexteditor.EditorController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -14,13 +17,9 @@
               <MenuItem text="Save" onAction="#onSave"/>
               <MenuItem text="Close" onAction="#onClose"/>
           </Menu>
-          <Menu text="Edit">
-              <MenuItem text="Delete" />
-          </Menu>
+
           <Menu text="Help">
-            <items>
               <MenuItem text="About" onAction="#onAbout" />
-            </items>
           </Menu>
         </menus>
       </MenuBar>
